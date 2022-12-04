@@ -1,0 +1,172 @@
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ad90aa;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+body {
+    background-color: rgb(242, 246, 247);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
+  
+  li {
+    float: top-left;
+  }
+  
+  a {
+    color: rgb(67, 58, 67);
+    font-size: 13;
+    line-height: 0.1;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    background-color: #efeeee;
+  }
+  
+  h1 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    text-align: center;
+    line-height: 0.8;
+      
+}
+ 
+  h2 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    font-size: 25px;
+    
+  }
+
+   p {
+    text-indent: 50px;
+    color: rgb(167, 167, 167);
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 25px;
+  }
+  img {
+    border-radius: 12%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    opacity: 1.2;
+
+  }
+  
+  h3 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 35 px;
+    
+    }
+    p {
+        color: rgb(118, 116, 116);
+        text-align: left,right;
+        font-family: 'Georgia';
+        font-size: 25px;
+    }
+
+img {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+h4 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 35 px;
+}
+
+h5 {
+    color: rgb(26, 25, 25);
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 35 px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+p5 {
+    color: rgb(31, 30, 30);
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 35px;
+}
+
+.youtube-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.youtube-container iframe,
+.youtube-container object,
+.youtube-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
