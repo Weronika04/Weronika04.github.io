@@ -1,0 +1,84 @@
+h1 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    text-align: center;
+    line-height: 0.8;
+    font-size: 25;
+      
+}
+
+h2 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    text-align: center;
+    line-height: 0.8;
+    font-size: 25;
+      
+}
+p {
+    text-indent: 50px;
+    color: rgb(58, 56, 56);
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 25px;
+  }
+
+  h3 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    text-align: center;
+    line-height: 0.8;
+    font-size: 45;
+      
+}
+
+h4 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    text-align: center;
+    line-height: 0.8;
+    font-size: 45;
+      
+}
+
+h5 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    text-align: center;
+    line-height: 0.8;
+    font-size: 45;
+      
+}
+
+#blok {
+    width:500px;
+    height:2.2em;
+    line-height:2.2em;
+    margin:0 auto;
+    border:3px solid rgb(207, 193, 201);
+    font-size:1.5em;
+    background-color:rgb(235, 227, 234);
+    overflow:hidden;
+  }
+  
+  #blok > p {
+    margin:0;
+    white-space:nowrap;
+  }
+  @keyframes przesun
+{
+  0% { transform:translateX(0); }
+  100% { transform:translateX(-100%); }
+}
+#blok > p {
+    margin:0;
+    white-space:nowrap;
+    animation:przesun 30s linear infinite;
+  }
+
+
