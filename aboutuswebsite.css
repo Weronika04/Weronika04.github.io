@@ -1,0 +1,34 @@
+h1 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    text-align: center;
+    line-height: 0.8;
+    font-size: 25;
+      
+}
+
+p {
+    text-indent: 50px;
+    color: rgb(58, 56, 56);
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 25px;
+  }
+
+  h2 {
+    color: rgb(152, 119, 153);
+    text-align: center;
+    font-family:'Georgia';
+    text-align: center;
+    line-height: 0.8;
+    font-size: 25;
+      
+}
+p {
+    text-indent: 50px;
+    color: rgb(58, 56, 56);
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 25px;
+  }
